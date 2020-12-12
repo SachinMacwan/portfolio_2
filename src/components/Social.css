@@ -1,0 +1,28 @@
+.social{
+    display: none;
+}
+
+@media only screen and (max-width: 768px){
+.social{
+    display:flex;
+    position:relative;
+    top:25%;
+    left:0;
+    text-align:center;
+    width:100%;
+}
+.social ul{
+    align-items:center;
+    display:flex;
+    padding: 0 1rem;
+    list-style:none;
+    margin-left:22%;
+}
+.social li{
+    padding:0 0.5rem;
+    transform: scale(1.3);
+    margin-left: 1.5rem;
+}
+.social li a{
+}
+}

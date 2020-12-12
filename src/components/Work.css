@@ -1,0 +1,172 @@
+.main_work_div{
+  height: 220vh;
+}
+
+.main-div{
+    height:100vh;
+    margin: 0 12% 0 12%;
+  }
+  .work_title h2{
+    padding-top: 100px;
+    text-align: center;
+    font-size: clamp(26px,5vw,32px);
+  
+  }  
+  
+  .project_pro_1,
+  .project_pro_2 {
+    margin: 4% 0 5% 0;
+    padding: 2% 0 3% 0;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+  }
+  
+  .image,
+  .image_r {
+    padding: 0px;
+    margin: 2%;
+    height: 200px;
+    width: 400px;
+    max-height: 200px;
+    max-width: 400px;
+  }
+  
+  .image_r {
+    transform: translateX(-12%);
+  }
+  
+  .image img,
+  .image_r img {
+    margin: 0;
+    padding: 0;
+    height: 350px;
+    width: 550px;
+  }
+  
+  .info_class,
+  .info_class_r {
+    margin: 40px 0 0 0;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+  }
+  .info_class{
+    transform: translateX(16.5%);
+  }
+  
+  .title {
+    font-size: x-large;
+    text-align: right;
+  }
+  
+  .title_r {
+    font-size: x-large;
+    text-align: left;
+  }
+  
+  .desc {
+    height: 120px ;
+    width: 550px;
+    z-index: 2;
+    padding: 2.5%;
+    border-radius: 8px;
+    transform: translateX(-4%);
+  }
+  
+  .desc_r {
+    height: 120px ;
+    width: 550px;
+    z-index: 2;
+    padding: 2.5%;
+    border-radius: 8px;
+    }
+  
+  .techs {
+    text-align: right;
+    font-family: 'Source Code Pro' !important;
+  }
+  .techs_r {
+    font-family: 'Source Code Pro' !important; 
+  } 
+  .techs p{
+    margin: 0;
+    padding: 0;
+  }
+  .icons {
+    text-align: right;
+    transform: translateX(-10%);
+  }
+  .a_active i:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+  }
+  
+  .a_not_active {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: black;
+  }
+  
+  @media only screen and (max-width: 769px) {
+    .main_work_div{
+      height: 150vh;
+    }
+    .main-div{
+      height:50vh;
+      margin: 0 5% 0 3%;
+    }  
+    .work_title h2{
+      padding: 0;
+      text-align: left;
+      margin:0 0 0 10px;
+    
+    }
+    .project_pro_1,.project_pro_2{
+        margin: 3% 0 1% 0;
+        padding: 1%;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        font-size:16px;
+      }
+    
+    .image,
+    .image_r {
+        display: none;
+    }
+    .title,
+    .title_r {
+        transform: translateX(0);
+        text-align: center;
+        font-size: large;
+    }
+    .info_class,.info_class_r {
+      margin: 0;
+      padding:0;
+      display: flex;
+      flex-direction: column;
+      transform: translateX(0);
+    }
+    .desc,
+    .desc_r {
+      height: 180px ;
+      width: 100%;
+      border-radius: 8px;
+      margin-top:0;
+      transform: translateX(0%);
+      z-index: 2;
+      padding: 2%;
+    }
+    .icons,.icons_r {
+        text-align: right;
+        transform: translateX(-5%);
+  
+    }
+    .techs{
+        text-align: left;
+        transform: translateX(5%);
+    }
+  }

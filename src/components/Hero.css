@@ -1,0 +1,53 @@
+.main_div{
+    margin: 0;
+    padding: 0;
+}
+.main_sec{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top:50%;
+    left:50%;
+    transform: translate(-55%,-65%);
+    width: 70%;
+}
+section h1{
+    margin: 2%;
+    padding: 0;
+}
+.h_1{
+    font-family: 'Source Code Pro' !important;
+    font-size: clamp(14px,5vw,16px);
+}
+.h_2{
+    font-size: clamp(42px, 8vw, 78px);
+    line-height: 1.1;
+}
+.h_3{
+    font-size: 280%;
+}
+.h_4{
+    font-size: 280%;
+}
+
+@media only screen and (max-width: 600px){
+    .main_sec{
+        margin-top: 100px;
+        width: 95%;
+        transform: translate(-50%,-120%);
+    }
+    section h1{
+        margin: 2%;
+        padding: 0;
+    }
+    .h_1{
+        font-size: 120%;
+
+    }
+    .h_3{
+        font-size: 218%;
+    }
+    .h_4{
+        font-size: 120%;
+    }   
+}

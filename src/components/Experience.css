@@ -1,0 +1,89 @@
+.main_div{
+    height:100vh;
+    margin: 0 15% 0 12%;
+    background:transparent;
+  }
+  .section_title h2{
+    padding-top: 100px;
+    text-align: center;
+    font-size: clamp(26px,5vw,32px);
+  }
+  .main_divsec {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .experience_1{
+    position: relative;
+    padding-left: 20px ;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 40%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);  
+  }
+  
+  .job_title {
+    text-align: left;
+    font-size: 22px;
+    height: 50px;
+  }
+  .job_duties{
+    height: 230px;
+  }
+  .job_duties ul{
+    list-style: none;
+    text-align: left;
+    padding: 0;
+  }
+  .job_duties li{
+    margin: 6px;
+  }
+  .job_duties li::before{
+    content: "➢";
+    display: inline-block;
+    margin-left: -1.4em; 
+    width: 1.4em; 
+  }
+  .techs_worked{
+    text-align: left;
+    word-spacing: 30px;
+    padding: 0.2em;
+  }
+
+  @media only screen and (max-width: 769px) {
+    .main_div{
+      height:118vh;
+      margin: 0 8% 0 3%;
+      background:transparent;
+    }  
+    .section_title h2{
+      padding-top: 0px;
+      text-align: left;
+    }
+    .main_divsec {
+      margin-top: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    .experience_1{
+      position: relative;
+      margin: 4% 0;
+      padding-left: 20px ;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      width: 100%;
+    }
+    
+  .job_duties{
+    height: 250px;
+  } 
+  .techs_worked{
+    margin-top: 20px;
+    text-align: left;
+    word-spacing: 30px;
+    padding: 0.2em;
+  }
+  }

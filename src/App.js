@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import Hero from "./components/Hero"
+import first from "./components/Themes"
+import Work from './components/Work';
+import MainNavigation from './components/Navigation/MainNavigation'
+import Experience from './components/Experience';
+import Sidebar from './components/Sidebar';
+import Social from './components/Social';
 
-function App() {
+const App = () => {
+  const [theme, setTheme] = useState(first[0])
+  let i = 0;
+  function two() {
+    let l = first.length - 1;
+    setInterval(() => {
+      while (true) {
+        if (i >= l) i = -1;
+        i += 1;
+        setTheme(first[i])
+        break;
+      }
+
+    }, 5000)
+
+  }
+
+  useEffect(() => {
+ two();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={theme}>
+      
+
+      <MainNavigation/>
+      <Hero />
+      <Work />
+      <Experience/>
+      <Social/>
     </div>
   );
-}
+};
 
 export default App;
