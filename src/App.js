@@ -20,7 +20,7 @@ const App = () => {
         break;
       }
 
-    }, 5000)
+    }, 10000)
 
   }
 
@@ -32,7 +32,7 @@ const App = () => {
     <div style={theme}>
       
 
-      <MainNavigation/>
+      <MainNavigation scheme={theme}/>
       <Hero />
       <Work />
       <Experience/>

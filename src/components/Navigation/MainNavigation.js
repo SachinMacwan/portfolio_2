@@ -6,7 +6,7 @@ import DrawerToggleButton from './DrawerToggleButton';
 import "./MainNavigation.css";
 
 
-export default function MainNavigation() {
+const MainNavigation=props=> {
 const [show,setShow]= useState(false)
 
 const drawerToggleClickHandler = () => {
@@ -22,7 +22,7 @@ if(show){
 }
 
     return (
-        <div className="main-navigation">
+        <div className="main-navigation" style={props.scheme}>
          <div className="navbar"> <Navbar /> </div> 
          <div className="sideDrawer"> <Sidedrawer click={backdropClickHandler} show={show}/> </div>
           {backdrop}
@@ -31,3 +31,5 @@ if(show){
         </div>
     )
 }
+
+export default MainNavigation;

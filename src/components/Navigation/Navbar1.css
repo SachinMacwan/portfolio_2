@@ -9,7 +9,7 @@
     height: 50px;
     margin-right: 0;
     z-index: 4;
-    
+    background-color:rgba(0, 0, 0, 0.2);    
 }
 .nav-logo{
     margin-left: 25px;
@@ -36,6 +36,7 @@ margin-right: 25px;
     .main-nav{
         justify-content: space-around;    
         height: 55px;
+        background-color:rgba(0, 0, 0, 0.8);    
     }
     .nav-items li{
         display: none;
