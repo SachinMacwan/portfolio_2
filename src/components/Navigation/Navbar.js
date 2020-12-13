@@ -2,12 +2,13 @@ import React from 'react';
 import "./Navbar1.css"
 import { Link } from "react-scroll";
 import pdf from "../ResumeF.pdf"
+import logo from "./logo.png"
 
 const Navbar1 = props => {
     return (
         <nav className="main-nav">
 
-            <div className="nav-logo">LOGO</div>
+            <div className="nav-logo"><img className="logo_svg" src={logo} alt="logo"/></div>
 
             <div />
 
@@ -27,6 +28,17 @@ const Navbar1 = props => {
                     <li>
                         <Link
                             activeClass="active"
+                            to="about"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}>
+                            About
+                            </Link>
+                    </li>
+                    <li>
+                        <Link
+                            activeClass="active"
                             to="work"
                             spy={true}
                             smooth={true}
@@ -35,7 +47,6 @@ const Navbar1 = props => {
                             Work
                             </Link>
                     </li>
-
                     <li>
                         <Link
                             activeClass="active"
@@ -48,7 +59,7 @@ const Navbar1 = props => {
                             </Link>
                     </li>
                     <li>
-                        <a href={pdf} target="_blank" rel="noopener noreferrer">Resume</a>
+                    <a href={pdf} target="_blank" rel="noopener noreferrer"><button>Resume</button></a>
                     </li>
                 
             </div>

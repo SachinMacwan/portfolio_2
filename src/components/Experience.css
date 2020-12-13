@@ -4,7 +4,6 @@
     background:transparent;
   }
   .section_title h2{
-    padding-top: 100px;
     text-align: center;
     font-size: clamp(26px,5vw,32px);
   }
@@ -58,8 +57,7 @@
       background:transparent;
     }  
     .section_title h2{
-      padding-top: 0px;
-      text-align: left;
+      text-align: center;
     }
     .main_divsec {
       margin-top: 0;

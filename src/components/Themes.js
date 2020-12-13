@@ -17,7 +17,6 @@
     },
     {
         backgroundColor: "#520216",
-        borderColor: "yellow",
         color: "#deafbb",
         animation:"ease 2s",
         transition: "2s", 

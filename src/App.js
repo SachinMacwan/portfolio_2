@@ -6,6 +6,7 @@ import MainNavigation from './components/Navigation/MainNavigation'
 import Experience from './components/Experience';
 import Sidebar from './components/Sidebar';
 import Social from './components/Social';
+import About from './components/About';
 
 const App = () => {
   const [theme, setTheme] = useState(first[0])
@@ -20,7 +21,7 @@ const App = () => {
         break;
       }
 
-    }, 10000)
+    }, 15000)
 
   }
 
@@ -34,6 +35,7 @@ const App = () => {
 
       <MainNavigation scheme={theme}/>
       <Hero />
+      <About/>
       <Work />
       <Experience/>
       <Social/>

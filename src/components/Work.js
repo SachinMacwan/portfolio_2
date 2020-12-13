@@ -18,8 +18,8 @@ const Work = () => {
   }, []);
   return (
     <div className="main_work_div">
-      <div id="work" className="main-div">
-      <div className="work_title"><h2>Work</h2></div>
+      <div className="main-div">
+      <div id="work"  className="work_title"><h2>Work</h2></div>
 
       <div className="App">
            
