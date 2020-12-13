@@ -96,18 +96,16 @@
   }
   .icons {
     text-align: right;
-    transform: translateX(-10%);
   }
   .a_active i:hover{
     transform: scale(1.2);
     transition: all 0.5s ease;
   }
   
-  .a_not_active {
-    pointer-events: none;
-    cursor: default;
+  .a_active {
+    cursor: pointer;
     text-decoration: none;
-    color: black;
+    color:inherit;
   }
   
   @media only screen and (max-width: 769px) {
