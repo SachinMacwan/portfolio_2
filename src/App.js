@@ -32,7 +32,7 @@ const App = () => {
   return (
     <div style={theme}>
       
-
+      <Sidebar/>
       <MainNavigation scheme={theme}/>
       <Hero />
       <About/>
