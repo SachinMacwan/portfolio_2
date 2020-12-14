@@ -26,8 +26,8 @@ const App = () => {
   }
 
   useEffect(() => {
- two();
-  }, []);
+    two();
+  }, );
 
   return (
     <div style={theme}>

@@ -71,7 +71,9 @@
     padding: 2.5%;
     border-radius: 8px;
     transform: translateX(-4%);
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+    text-shadow: 2px 1px black;
+    box-shadow:inset 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+    background-color:rgba(1, 2, 0, 0.5);
   }
   
   .desc_r {
@@ -81,8 +83,10 @@
     padding: 2.5%;
     border-radius: 8px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+    text-shadow: 2px 1px black;
+    background-color:rgba(1, 2, 0, 0.5);
   }
-  
+
   .techs {
     text-align: right;
     font-family: 'Source Code Pro' !important;
@@ -111,14 +115,14 @@
   @media only screen and (max-width: 769px) {
     .main_work_div{
       height: 150vh;
-    }
+     }
     .main-div{
       height:50vh;
       margin: 0 5% 0 3%;
     }  
     .work_title h2{
       margin:0 0 0 10px;
-    
+      padding-bottom: 10px;
     }
     .project_pro_1,.project_pro_2{
         margin: 3% 0 1% 0;
@@ -150,13 +154,16 @@
     .desc,
     .desc_r {
       height: 180px ;
-      width: 100%;
+      width: 99%;
       border-radius: 8px;
       margin-top:0;
       transform: translateX(0%);
       z-index: 2;
       padding: 2%;
       box-shadow: none ; 
+      background-color: transparent;
+      text-shadow: transparent;
+      
     }
     .icons,.icons_r {
         text-align: right;

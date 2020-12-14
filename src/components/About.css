@@ -28,7 +28,7 @@ h2::after {
     display: inline-block;
     content: "";
     border-bottom: .1rem solid;
-    width: 14rem;
+    width:  clamp(4.1rem, 12vw, 12rem);
     margin: 0 0.8rem;
     transform: translateY(-0.5rem);
 }
@@ -42,8 +42,4 @@ h2::after {
         padding-top: 0px;
         text-align: center;
       }
-    h2::before,
-    h2::after {
-        width: 4rem;
-      }
-}
+ }

@@ -58,6 +58,7 @@
     }  
     .section_title h2{
       text-align: center;
+      padding-bottom: 10px;
     }
     .main_divsec {
       margin-top: 0;
