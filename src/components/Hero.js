@@ -15,7 +15,7 @@ const Hero = () => {
             </h1>
 
             <h1 className="h_3">
-                I am Software Engineer based in Melbourne, Australia 
+                I am a Software Engineer based in Melbourne, Australia 
             </h1>
         
         

@@ -37,7 +37,8 @@
     border: transparent;
     background: transparent;
     box-shadow: 1px 1px 1px rgba(0,0,0,0.6), 1px 1px 1px rgba(0,0,0,0.5); 
-}
+    font-size: 17px;    
+  }
 
   @media (min-width:769px){
     .side-drawer{

@@ -16,7 +16,7 @@
         height: "100%",
     },
     {
-        backgroundColor: "#520216",
+        backgroundColor: "#36020f",
         color: "#deafbb",
         animation:"ease 1s",
         transition: "1s", 
