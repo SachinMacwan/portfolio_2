@@ -162,7 +162,7 @@
       padding: 2%;
       box-shadow: none ; 
       background-color: transparent;
-      text-shadow: transparent;
+      text-shadow: none;
       
     }
     .icons,.icons_r {
