@@ -24,7 +24,7 @@
     },
     {
         backgroundColor: "#274b59",
-        color: "#83ceeb",
+        color: "#acdff2",
         animation:"ease 1s",
         transition: "1s", 
         height: "100%"
