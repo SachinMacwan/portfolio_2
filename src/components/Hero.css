@@ -24,7 +24,8 @@ section h1{
     line-height: 1.1;
 }
 .h_3{
-    font-size: 280%;
+    font-size: clamp(25px, 6vw, 52px);
+
 }
 
 
@@ -42,7 +43,4 @@ section h1{
         font-size: 120%;
 
     }
-    .h_3{
-        font-size: 218%;
-    }
- }
+  }

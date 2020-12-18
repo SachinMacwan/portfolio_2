@@ -16,8 +16,15 @@
         height: "100%",
     },
     {
-        backgroundColor: "#36020f",
-        color: "#deafbb",
+        backgroundColor: "#66313e",
+        color: "#f2bfcc",
+        animation:"ease 1s",
+        transition: "1s", 
+        height: "100%"
+    },
+    {
+        backgroundColor: "#274b59",
+        color: "#83ceeb",
         animation:"ease 1s",
         transition: "1s", 
         height: "100%"
