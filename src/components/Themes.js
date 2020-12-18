@@ -16,7 +16,7 @@
         height: "100%",
     },
     {
-        backgroundColor: "#66313e",
+        backgroundColor: "#540f21",
         color: "#f2bfcc",
         animation:"ease 1s",
         transition: "1s", 
