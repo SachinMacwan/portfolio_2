@@ -18,7 +18,6 @@ const App = () => {
         if (i >= l) i = -1;
         i += 1;
         setTheme(first[i])
-        console.log(first[i])
         break;
       }
 
