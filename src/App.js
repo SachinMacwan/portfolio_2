@@ -7,6 +7,7 @@ import Experience from './components/Experience';
 import Sidebar from './components/Sidebar';
 import Social from './components/Social';
 import About from './components/About';
+import Test1 from "./Test1";
 
 const App = () => {
   const [theme, setTheme] = useState(first[0])
@@ -30,15 +31,14 @@ const App = () => {
   }, []);
   return (
     <div style={theme}>
-      
-      <Sidebar/>
-      <MainNavigation scheme={theme}/>
+
+      <Sidebar />
+      <MainNavigation scheme={theme} />
       <Hero />
-      <About/>
+      <About />
       <Work />
-      <Experience/>
-      <Social/>
-    </div>
+      <Experience />
+      <Social />     </div>
   );
 };
 

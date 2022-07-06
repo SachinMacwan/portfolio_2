@@ -68,19 +68,20 @@ const Experience = () => {
 
                     <div className="job_duties">
                         <ul>
-                            <li>Designed and developed various web applications
+                        <li>Designed and developed a web application for the internal use of the organization
                             </li>
-                            <li>Worked with variety of languages such as PHP, HTML, CSS, JavaScript and jQuery
+                            <li>Worked with variety of languages such as Node, React, HTML, CSS
                             </li>
-                            <li>Communicate and collaborate with other engineers and team-members
+                            <li>Designed Front end for the company, mainly the login page, sign up page and dashboard for the company
                             </li>
-                            <li>Used MSBI to migrate data from local computer to server
-                            </li>
+                            <li>Worked in a team to design the schema for the backend and created a database using Node and Mongo
+                            </li>                            
+                          
                         </ul>
                     </div>
 
                     <div className="techs_worked">
-                        <p> HTML CSS JavaScript PHP MSBI
+                        <p> REACT NODE MONGO CSS
                         </p>
                     </div>
                 </motion.div>
